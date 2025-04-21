@@ -239,7 +239,7 @@ public:
 		};
 
 		tinygltf::Scene GLTFScene;
-		GLTFScene.name = FilePath.filename();
+		GLTFScene.name = FilePath.filename().string();
 		GLTFScene.nodes.push_back(0);
 
 		GLTFModel.scenes.push_back(GLTFScene);
