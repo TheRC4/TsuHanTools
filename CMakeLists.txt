@@ -101,6 +101,7 @@ target_link_libraries(
 	PRIVATE
 	tinygltf
 	mio
+	glm
 )
 
 # Dump
@@ -118,4 +119,5 @@ target_link_libraries(
 	PRIVATE
 	TsuHan
 	mio
+	glm
 )
