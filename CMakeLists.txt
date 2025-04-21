@@ -23,7 +23,6 @@ if( MSVC )
 		/we4018 # 'expression': signed/unsigned mismatch
 		/we4062 # Enumerator 'identifier' in a switch of enum 'enumeration' is not handled
 		/we4101 # 'identifier': unreferenced local variable
-		/we4265 # 'class': class has virtual functions, but destructor is not virtual
 		/we4305 # 'context': truncation from 'type1' to 'type2'
 		/we4388 # 'expression': signed/unsigned mismatch
 		/we4389 # 'operator': signed/unsigned mismatch
